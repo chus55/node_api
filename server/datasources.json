@@ -3,7 +3,7 @@
     "host": "localhost",
     "port": 3306,
     "database": "miBaseDeDatos",
-    "password": "miPassword",
+    "password": "admin",
     "name": "miMySql",
     "user": "root",
     "connector": "mysql"
