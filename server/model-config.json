@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "miMySql",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "miMySql",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "miMySql",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "miMySql",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "miMySql",
+    "public": false
+  },
+  "Actividades": {
+    "dataSource": "miMySql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Grupos": {
+    "dataSource": "miMySql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "ActividadesGrupos": {
+    "dataSource": "miMySql",
+    "public": true
+  },
+  "Evaluaciones": {
+    "dataSource": "miMySql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "UsuariosGrupos": {
+    "dataSource": "miMySql",
+    "public": true
+  }
+}

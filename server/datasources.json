@@ -1,0 +1,11 @@
+{
+  "miMySql": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "miBaseDeDatos",
+    "password": "miPassword",
+    "name": "miMySql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
